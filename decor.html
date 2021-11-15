@@ -49,83 +49,58 @@
             </nav>
     </header><!--Fim cabeçalho-->
 
-    <section id="home"> <!--Início da seção home-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex"><!--Textos da seção-->
-                    <div class="align-self-center">
-                        <h1 class="display-4">As melhores dicas de decoração com os menores preços</h1>
-                        <p>
-                            Aqui nessa página trazemos os posts com as melhores ideias para você decorar sua casa ou apê. São dicas que você pode seguir do seu jeito, tornando seu lar único e personalizado com sua essência.
-                        </p>
-                    </div>
-                </div><!--Fim dos textos da seção-->
-                <div class="col-md-6 d-none d-md-block">
-                    <img src="canecas.jpeg">
+    <div id="area-principal">
+
+        <div id="area-postagens">
+            <!--Abertura de postagem-->
+            <div class="postagem">
+                <h2>Reaproveitando jeans velhos</h2>
+                <span class="data-postagem">postado em 20 de março de 2021</span>
+                <img width="590px" src="jeans.png">
+                <p>
+                    Pensa num item versátil: é o jeans. Como peça de vestuário, você consegue adaptar pra qualquer ocasião, qualquer clima e qualquer rolê. Agora, a novidade está em usar jeans para dar um toque extra na decoração da sua casa.
+                </p>
+                <a href="" class="btn btn-success">Leia mais</a>
+            </div>
+            <!--Fechamento de postagem-->
+
+            <!--Abertura de postagem-->
+            <div class="postagem">
+                <h2>Redes: Confortáveis e decorativas.</h2>
+                <span class="data-postagem">postado em 10 de março de 2021</span>
+                <img width="590px" src="rede.jpeg">
+                <p>Já pensou em ter uma rede no meio da sua sala? Quer jeito melhor depois de um dia longo de trabalho? O mais legal é que as redes são uma tendência em ascensão e trazem muito estilo para a decoração da sua casa. O que acha de tentar?.
+                </p>
+                <a href="" class="btn btn-success">Leia mais</a>
+            </div>
+            <!--Fechamento de postagem-->
+        </div>
+
+<!-- Área lateral em construção -->
+        <div id="area-lateral">
+            <div class="conteudo-lateral">
+                <h3>Postagens recentes</h3>
+                <div class="postagem-lateral">
+                    <p>8 dicas para economizar mais na sua obra</p>
+                    <a href="" class="btn btn-success">Leia mais</a>
+                </div>
+                <hr>
+                <div class="postagem-lateral">
+                    <p>3 idéias de materiais mais baratos para construção e reforma.</p>
+                    <a href="" class="btn btn-success">Leia mais</a>
                 </div>
             </div>
-        </div>
-    </section> <!--Fim da seção home-->
 
-    <section class="caixa"> <!--Início da seção decoração-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="decor.png" class="img-fluid">
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Sua casa do seu jeito</h2>
-                        <p>
-                            As dicas desse site vão te ajudar a deixar sua personalidade florescer na sua decoração, tornando sua casa especial e única.
-                        </p>
-                        <a href="decor.html" class="btn btn-success">Veja mais</a>
-                    </div>
-                </div>
+            <div class="conteudo-lateral">
+                <h3>Categorias</h3>
+                <a href="index.html">HOME</a><br>
+                <a href="decor.html">DECORAÇÃO</a><br>
+                <a href="baixo-custo.html">BAIXO CUSTO</a><br>
+                <a href="diy.html">DIY</a><br>
             </div>
         </div>
-    </section><!--Fim da seção decoração-->
-
-    <section class="caixa"> <!--Início da seção baixo custo-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Economize na obra</h2>
-                        <p>
-                            A equipe do Constrution Stars prepara diversos conteúdos sobre como você fazer a sua reforma pagando menos, sempre mantendo 100% de qualidade e beleza!
-                        </p>
-                        <a href="baixo-custo.html" class="btn btn-success">Veja mais</a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="Design_sem_nome__5_-removebg-preview.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section><!--Fim da seção baixo custo-->
-
-    <section class="caixa"> <!--Início da seção diy-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="diyimg.png" class="img-fluid">
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Coloque a mão na massa</h2>
-                        <p>
-                            Vamos te mostrar os melhores tutoriais para que você possa realmente colocar o coração (e as mãos!) na sua reforma e torná-la autêntica!
-                        </p>
-                        <a href="diy.html" class="btn btn-success">Veja mais</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--Fim da seção diy-->
-
     
-    <footer class="mt-4 mb-4"> <!--Início do rodapé-->
+    <!--<footer class="mt-4 mb-4"> Início do rodapé
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -149,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </footer> <!--Fim do rodapé-->
+    </footer>Fim do rodapé-->
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
